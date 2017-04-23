@@ -55,7 +55,7 @@ $(function () {
     },
     notes: [
       'Hi, this is <strong>minibed</strong>!',
-      'It\'s a mini editable, customizable playground bundle for web'
+      'It\'s a mini editable, customizable playground for web'
     ]
   }).show()
 
