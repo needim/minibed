@@ -22,6 +22,10 @@
     <a href="https://www.npmjs.com/package/noty"><img src="https://img.shields.io/npm/dm/minibed.svg?label=npm%20downloads" alt="NPM Downloads"></a>
     <a href="https://github.com/needim/noty/graphs/contributors"><img src="https://img.shields.io/github/contributors/needim/minibed.svg" alt="Contributors"></a>
   </p>
+  
+  <a href="http://ned.im/minibed?ref=readme">
+    <img src="http://ned.im/minibed/img/projects/minibed-live.gif">
+  </a>
 </p>
 
 <br>
