@@ -542,6 +542,15 @@ div#options .imp.issue {
 
 @media only screen
 and (max-width: 600px) {
+
+  .container {
+    padding: 0;
+  }
+
+  .project-links iframe {
+    display: block;
+  }
+
   .rwd-table th {
     display: none;
   }
@@ -565,12 +574,11 @@ and (max-width: 600px) {
 
   .sharer-btn.text-center.sharer-0 {
     width: 100%;
-    margin-top: 30px;
   }
 
-  iframe {
-    margin-top: 5px;
-  }
+  /*iframe {*/
+    /*margin-top: 5px;*/
+  /*}*/
 
   h1 > span {
     display: block;
@@ -597,6 +605,11 @@ and (max-width: 600px) {
 
   .row-eq-height {
     display: block !important;
+  }
+
+  .features > span {
+    display: block !important;
+    margin: 5px 0 !important;
   }
 }
 
@@ -631,7 +644,7 @@ pre.prettyprint {
   top: 2px;
 }
 
-.features span {
+.features > span {
   display: inline-block;
   margin-left: 15px;
 }
