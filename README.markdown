@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="http://ned.im/noty?ref=readme">
-    <img src="http://ned.im/noty/img/projects/minibed-logo.png">
+  <a href="http://ned.im/minibed?ref=readme">
+    <img src="http://ned.im/minibed/img/projects/minibed-logo.svg" width=180>
   </a>
 
   <p align="center">
     mini editable, customizable playground for web
     <br>
-    <a href="http://ned.im/minibed"><strong>Documentation &raquo;</strong></a>
+    <a href="http://ned.im/minibed?ref=readme-link"><strong>Documentation &raquo;</strong></a>
   </p>
 
   <p align="center">
