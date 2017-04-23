@@ -1,0 +1,74 @@
+.cm-s-minibed-dark {
+  font-size: 14px;
+  line-height: 1.5em;
+  font-family: "Fira Mono", Inconsolata, Menlo, Consolas, monospace;
+  word-spacing: 1px;
+  background: #372725;
+  color: #E6E1C4;
+  transition: font-size .09s ease;
+
+  .CodeMirror-lines {
+    padding: 8px 0;
+  }
+
+  .CodeMirror-gutters {
+    box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+    background-color: #372725;
+    padding-right: 10px;
+    z-index: 3;
+    border: none;
+  }
+
+  .CodeMirror-cursor {
+    border-left: 3px solid #E6E1C4;
+  }
+
+  .CodeMirror-activeline-background {
+    background: #201616;
+  }
+
+  .CodeMirror-selected {
+    background: #1E1C1C;
+  }
+
+  .cm-comment {
+    font-style: italic;
+    color: #6B4E32;
+  }
+
+  .cm-keyword,
+  .cm-tag {
+    color: #EF5D32;
+  }
+
+  .cm-tag.cm-bracket {
+    color: #ca4f2a;
+  }
+
+  .cm-string,
+  .cm-string-2 {
+    color: #D9D762;
+  }
+
+  .cm-property {
+    color: #EFAC32;
+  }
+
+  .cm-def,
+  .cm-variable {
+    color: #7DAF9C;
+  }
+
+  .cm-atom {
+    color: #EFAC32;
+  }
+
+  .cm-number {
+    color: #7DAF9C;
+  }
+
+  .cm-operator {
+    color: #EF5D32;
+  }
+}

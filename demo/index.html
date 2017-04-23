@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>minibed - Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/codemirror.min.css"/>
+  <link rel="stylesheet" href="../lib/minibed.css"/>
+  <link rel="stylesheet" href="fonts/stylesheet.css"/>
+  <link rel="stylesheet" href="demo.css"/>
+</head>
+<body>
+
+<div class="logo">
+  <img src="../minibed-logo.svg" alt="minibed">
+</div>
+
+<div id="custom_container"></div>
+<div id="custom_container_2"></div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/codemirror.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/mode/javascript/javascript.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/mode/htmlmixed/htmlmixed.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/mode/jsx/jsx.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/mode/xml/xml.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/mode/css/css.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/addon/scroll/simplescrollbars.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/addon/edit/matchbrackets.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/addon/edit/closetag.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.2/addon/edit/closebrackets.min.js"></script>
+<script type="text/javascript" src="../lib/minibed.js"></script>
+
+<script type="text/javascript">
+  (function () {
+
+    new Minibed({
+      title: 'minibed',
+      container: '#custom_container',
+      theme: 'dark',
+      editorTheme: 'minibed-dark',
+      external: {
+        js: [
+          'https://cdn.jsdelivr.net/mojs/latest/mo.min.js',
+          'https://cdn.rawgit.com/needim/noty/master/lib/noty.js'
+        ],
+        css: [
+          '//cdn.rawgit.com/needim/noty/master/lib/noty.css',
+          'fonts/stylesheet.css'
+        ]
+      },
+      files: {
+        html: [
+          'files/example-1.html',
+          'files/empty.html'
+        ],
+        js: [
+          'files/basic-init.js',
+          'files/mojs-animation.js'
+        ],
+        css: [
+          'files/example-1.css'
+        ]
+      },
+      settings: {
+        scrollLock: false,
+        js: {
+          preprocessor: 'none' // babel, typescript, coffeescript, livescript, none
+        },
+        css: {
+          preprocessor: 'none', // less, sass, scss, stylus, postcss, none
+          base: 'none', // normalize, reset, none
+          prefixing: 'none', // autoprefixer, prefixfree, none
+          imports: [] // susy, compass, bourbon etc. NOT IMPLEMENTED YET
+        },
+        html: {
+          preprocessor: 'none' // haml, markdown, slim, pug, none
+        }
+      },
+      notes: [
+        'Hi, this is <strong>minibed</strong>!',
+        'It\'s a mini editable, customizable playground bundle for web ♥️'
+      ]
+    }).show()
+
+
+    new Minibed({
+      title: 'minibed',
+      container: '#custom_container_2',
+      theme: 'dark',
+      editorTheme: 'minibed-dark',
+      external: {
+        js: [],
+        css: ['fonts/stylesheet.css']
+      },
+      files: {
+        html: [
+          'files/empty.html'
+        ],
+        js: [],
+        css: [
+          'files/example-1.css'
+        ]
+      },
+      settings: {
+        js: {
+          preprocessor: 'none' // babel, typescript, coffeescript, livescript, none
+        },
+        css: {
+          preprocessor: 'none', // less, sass, scss, stylus, postcss, none
+          base: 'none', // normalize, reset, none
+          prefixing: 'none', // autoprefixer, prefixfree, none
+          imports: [] // susy, compass, bourbon etc. NOT IMPLEMENTED YET
+        },
+        html: {
+          preprocessor: 'none' // haml, markdown, slim, pug, none
+        }
+      },
+      notes: [
+
+      ]
+    }).show()
+
+  })()
+</script>
+
+</body>
+</html>

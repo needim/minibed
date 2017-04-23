@@ -1,0 +1,177 @@
+.minibed_bed.minibed_theme__dark {
+  background: #FBF0E0;
+  border: 3px solid #372725;
+
+  .minibed_tab {
+    color: #270528;
+    background: #fffdfa;
+    border-color: #372725;
+    font-family: "Fira Mono", Inconsolata, Menlo, Consolas, monospace;
+  }
+
+  .minibed_tab_result {
+    color: #ccc;
+  }
+
+  .minibed_tab_result.mb_live_active {
+    color: #372725;
+  }
+
+  .minibed_tab:hover {
+    background-color: #fcfaf7;
+    border-color: #372725;
+  }
+
+  .minibed_tab.minibed_active,
+  .minibed_tab.minibed_active:hover {
+    background-color: #372725;
+    color: #fff0f3;
+    border-color: #f44336;
+  }
+
+  .minibed_tabs_dropdown {
+    left: -3px;
+    border-left: 3px solid #f44336;
+    background: #fcfaf7;
+    color: #372725;
+  }
+
+  .minibed_tabs_dropdown > div:hover {
+    background: #503c3a;
+    color: #fff0f3;
+  }
+
+  .minibed_loading {
+    color: #fff;
+    background: #F44336;
+  }
+
+  .minibed_loading::after {
+    font-family: "Fira Mono", Inconsolata, Menlo, Consolas, monospace;
+    color: #f1f1f1;
+  }
+
+  .CodeMirror .resizable-handle {
+    background: rgba(10, 20, 30, 0.1) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='5' height='5'><path fill='rgba(130, 135, 140 ,1)' d='M 0 0 L 1 0 0 1 0 0 z'/><path fill='rgba(130, 135, 140 ,1)' d='M 0 5 L 5 0 5 1 1 5 0 5 z'/></svg>");
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    cursor: s-resize;
+  }
+
+  .minibed_footer {
+    background: #FAF46A;
+    padding: 20px 15px 6px 21px;
+  }
+
+  .minibed_footer_note {
+    margin: 0 0 10px 0;
+    color: #372725;
+  }
+
+  .minibed_tab_result.mb_live_active .minibed_checkbox-result label {
+    border-color: #06D6A0;
+  }
+
+  .minibed_checkbox-result label {
+    border-color: #ccc;
+  }
+
+  .minibed_checkbox-result label:after {
+    background-color: #ccc;
+  }
+
+  .minibed_checkbox-result input[type="checkbox"]:checked ~ label:after {
+    background-color: #06D6A0;
+  }
+
+  .minibed_checkbox-result.disable label {
+    border-color: #595C60;
+  }
+
+  .minibed_tab_contents.minibed_live .minibed_result_frame {
+    background: #FFFDFA;
+    border-color: #372725;
+  }
+
+  // scrolls
+  .CodeMirror-scrollbar-filler {
+    background: rgb(84, 63, 60);
+    height: 13px !important;
+  }
+
+  .CodeMirror-simplescroll-horizontal div,
+  .CodeMirror-simplescroll-vertical div {
+    position: absolute;
+    background: #f44336;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #f44336;
+  }
+
+  .CodeMirror-simplescroll-horizontal, .CodeMirror-simplescroll-vertical {
+    position: absolute;
+    z-index: 6;
+    background: rgb(84, 63, 60);
+  }
+
+  .CodeMirror-simplescroll-horizontal {
+    bottom: 5px;
+    left: 0;
+    height: 8px;
+  }
+
+  .CodeMirror-simplescroll-horizontal div {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .CodeMirror-simplescroll-vertical {
+    right: 0;
+    top: 0;
+    width: 8px;
+  }
+
+  .CodeMirror-simplescroll-vertical div {
+    right: 0;
+    width: 100%;
+  }
+
+  .CodeMirror-overlayscroll .CodeMirror-scrollbar-filler, .CodeMirror-overlayscroll .CodeMirror-gutter-filler {
+    display: none;
+  }
+
+  .CodeMirror-overlayscroll-horizontal div, .CodeMirror-overlayscroll-vertical div {
+    position: absolute;
+    background: #f44336;
+    border-radius: 3px;
+  }
+
+  .CodeMirror-overlayscroll-horizontal, .CodeMirror-overlayscroll-vertical {
+    position: absolute;
+    z-index: 6;
+  }
+
+  .CodeMirror-overlayscroll-horizontal {
+    bottom: 0;
+    left: 0;
+    height: 6px;
+  }
+
+  .CodeMirror-overlayscroll-horizontal div {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .CodeMirror-overlayscroll-vertical {
+    right: 0;
+    top: 0;
+    width: 6px;
+  }
+
+  .CodeMirror-overlayscroll-vertical div {
+    right: 0;
+    width: 100%;
+  }
+}

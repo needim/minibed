@@ -1,0 +1,22 @@
+{
+  "name": "minibed",
+  "description": "mini editable, customizable playground for web",
+  "license": "MIT",
+  "homepage": "http://ned.im/miniembed",
+  "main": "lib/minibed.js",
+  "keywords": [
+    "minibed",
+    "mini",
+    "embed",
+    "playground",
+    "playgarden"
+  ],
+  "ignore": [
+    "node_modules",
+    "tests",
+    "demo"
+  ],
+  "authors": [
+    "Nedim Arabacı <nedimarabaci@gmail.com>"
+  ]
+}

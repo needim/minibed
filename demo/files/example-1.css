@@ -1,0 +1,40 @@
+body {
+  font-family: 'GothamRoundedMedium', sans-serif;
+  font-size: 16px;
+  background-color: #FBF0E0;
+  border-radius: 2px;
+}
+
+.wrapper {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.button {
+  font-family: 'GothamRoundedMedium', sans-serif;
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: .8em 1.3em;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.2;
+  outline: 0;
+  background: #AC8FFD;
+  border: 2px solid #948CE2;
+  color: #fff;
+  text-shadow: none;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #c0a7fd;
+  border-color: #948CE2;
+  text-decoration: none;
+}

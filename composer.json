@@ -1,0 +1,22 @@
+{
+	"name": "needim/minibed",
+	"description": "mini editable, customizable playground for web",
+	"type": "library",
+	"license": "MIT",
+	"homepage": "http://ned.im/minibed",
+	"keywords": [
+    "minibed",
+    "mini",
+    "embed",
+    "playground",
+    "playgarden"
+	],
+	"authors": [
+		{
+			"name": "Nedim Arabacı",
+			"homepage": "http://ned.im",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "dev"
+}
