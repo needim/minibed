@@ -29,6 +29,10 @@
   right: 0;
   top: 0; }
 
+.minibed_logo:hover {
+  color: #fff;
+  text-decoration: none; }
+
 .minibed_tab {
   display: inline-block;
   -webkit-user-select: none;
@@ -166,7 +170,8 @@ input#minibed_checkbox-result {
   border: 2px solid;
   border-radius: 50%;
   -webkit-transition: 2s ease;
-  transition: 2s ease; }
+  transition: 2s ease;
+  margin: 0; }
 
 .minibed_checkbox-result label:after {
   display: block;
