@@ -4,8 +4,82 @@
   <div class="row">
     <div class="col-xs-12 col-md-12 col-lg-12">
 
+      <div class="text-center mb30 mt30 features">
+        <span class="ps-icon ps-icon-checked"></span> Free & Open Source
+        <span class="ps-icon ps-icon-checked"></span> Live Edit
+        <span class="ps-icon ps-icon-checked"></span> Multiple file support for per-languages
+        <span class="ps-icon ps-icon-checked"></span> Remote files
+        <span class="ps-icon ps-icon-checked"></span> Fully customizable
+      </div>
+
       <div class="minibed-example" id="example-1"></div>
 
+    </div>
+
+    <div class="col-xs-12 col-md-8 col-lg-8 col-md-push-2 col-lg-push-2">
+      <div>
+
+        <h1><span class="ps-icon ps-icon-code"></span> Example Usage</h1>
+
+        <p>
+          <strong>minibed</strong> is dependent to CodeMirror. So you need to include CodeMirror and it's some of modes/addons. Full list is below;
+        </p>
+
+        <pre class="prettyprint">
+Dependencies
+  - codemirror.js
+  - codemirror.css
+  - mode/javascript/javascript
+  - mode/htmlmixed/htmlmixed
+  - mode/jsx/jsx
+  - mode/xml/xml
+  - mode/css/css
+  - addon/scroll/simplescrollbars
+  - addon/edit/matchbrackets
+  - addon/edit/closetag
+  - addon/edit/closebrackets
+</pre>
+
+
+        <pre class="prettyprint lang-javascript">
+import Minibed from 'minibed'; // or include minibed.js & minibed.css
+
+new Minibed({
+    container: '#example-1',
+    theme: 'dark',
+    editorTheme: 'minibed-dark',
+    files: {
+      html: ['mini.html', 'bed.html'],
+      js: ['mini.js', 'mini-2.js'],
+      css: ['mini.css']
+    },
+    external: {
+      js: [
+          '//cdn.rawgit.com/needim/noty/master/lib/noty.js'
+      ],
+      css: [
+          '//cdn.rawgit.com/needim/noty/master/lib/noty.css'
+      ]
+    },
+    settings: {
+      readOnly: false, // true, nocursor, false
+      scrollLock: false,
+      lineWrapping: true,
+      lineNumbers: true,
+      tabSize: 2,
+      css: {
+        base: 'none', // normalize, reset
+      }
+    },
+    notes: [] // array of strings, like footer notes, they are gonna be paragraphs
+}).show();
+</pre>
+
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-8 col-lg-8 col-md-push-2 col-lg-push-2">
+      //= template/releases.html
     </div>
   </div>
 </div>

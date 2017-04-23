@@ -99,6 +99,11 @@ html, body {
   font-size: 16px;
   line-height: 1.5em;
   background-color: rgb(255, 253, 250);
+  background-image: url('bg-dot.png');
+  background-size: 41px 40px;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -126,6 +131,7 @@ a:hover {
 strong {
   font-family: 'GothamRoundedBold', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  color: #F44336;
 }
 
 .profile-bio {
@@ -394,7 +400,6 @@ blockquote {
 .project-info {
   text-align: center;
   padding: 0 5px;
-  background: #fffdfa;
   margin-bottom: 20px;
   font-size: 22px;
   line-height: 40px;
@@ -601,4 +606,32 @@ and (max-width: 600px) {
 a.minibed_logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+pre.prettyprint {
+  font-family: 'Fira Mono', Consolas, Lucida Console, monospace;
+  display: block;
+  padding: 20px;
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #dde4e8;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: rgb(251, 240, 224);
+  background-image: url('bg-dot.png');
+  background-size: 31px 30px;
+  background-position: 0 0;
+  background-repeat: repeat;
+  border: none;
+  border-radius: 0;
+}
+
+.features span.ps-icon.ps-icon-checked {
+  top: 2px;
+}
+
+.features span {
+  display: inline-block;
+  margin-left: 15px;
 }
