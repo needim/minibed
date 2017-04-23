@@ -57,6 +57,7 @@ Logo created by Karthik Srinivas from the Noun Project
 
 ##### Dependencies
 - CodeMirror
+  - codemirror.css
   - mode/javascript/javascript
   - mode/htmlmixed/htmlmixed
   - mode/jsx/jsx
