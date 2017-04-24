@@ -18,9 +18,9 @@
     <img src="https://img.shields.io/david/needim/minibed.svg" alt="Dependencies">
     <img src="https://img.shields.io/david/dev/needim/minibed.svg" alt="Dev Dependencies">
     <br>
-    <a href="https://travis-ci.org/needim/noty"><img src="https://img.shields.io/travis/needim/minibed/master.svg" alt="Travis"></a>
-    <a href="https://www.npmjs.com/package/noty"><img src="https://img.shields.io/npm/dm/minibed.svg?label=npm%20downloads" alt="NPM Downloads"></a>
-    <a href="https://github.com/needim/noty/graphs/contributors"><img src="https://img.shields.io/github/contributors/needim/minibed.svg" alt="Contributors"></a>
+    <a href="https://travis-ci.org/needim/minibed"><img src="https://img.shields.io/travis/needim/minibed/master.svg" alt="Travis"></a>
+    <a href="https://www.npmjs.com/package/minibed"><img src="https://img.shields.io/npm/dm/minibed.svg?label=npm%20downloads" alt="NPM Downloads"></a>
+    <a href="https://github.com/needim/minibed/graphs/contributors"><img src="https://img.shields.io/github/contributors/needim/minibed.svg" alt="Contributors"></a>
   </p>
 
   <p align="center">
